@@ -1,0 +1,3 @@
+[submodule "freshpink"]
+	path = freshpink
+	url = https://github.com/elecbrandy/freshpink
