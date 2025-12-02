@@ -92,6 +92,7 @@ body.dark #theme-toggle::before {
 .img-responsive {
     max-width: 100%;   /* Shrinks when needed */
     border-radius: 50%;
+    width: auto;
     height: auto;      /* Keeps correct aspect ratio */
     display: block;    /* Removes inline gaps */
     margin: 0 auto;    /* Optional: centers the image */
