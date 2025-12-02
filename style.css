@@ -1,3 +1,4 @@
+
 /* ===========================
    COLOR VARIABLES
 =========================== */
@@ -96,4 +97,20 @@ body.dark #theme-toggle::before {
     height: auto;      /* Keeps correct aspect ratio */
     display: block;    /* Removes inline gaps */
     margin: 0 auto;    /* Optional: centers the image */
+}
+
+.img-icon {
+    max-width: 40px;
+    max-height: 40px;
+    width: auto;
+    height: auto;
+}
+
+.img-icon:hover {
+    box-shadow: 0 0 2px 1px rgba(255, 179, 0, 0.303)
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
 }
