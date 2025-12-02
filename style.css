@@ -107,7 +107,7 @@ body.dark #theme-toggle::before {
 }
 
 .img-icon:hover {
-    box-shadow: 0 0 2px 1px rgba(255, 179, 0, 0.303)
+    box-shadow: 0 0 2px 1px rgba(255, 189, 36, 0.75)
 }
 
 div.container {
