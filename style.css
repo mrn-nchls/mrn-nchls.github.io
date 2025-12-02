@@ -91,19 +91,17 @@ body.dark #theme-toggle::before {
 }
 
 .img-responsive {
-    max-width: 100%;   /* Shrinks when needed */
+    max-width: 75%;   /* Shrinks when needed */
     border-radius: 50%;
-    width: auto;
     height: auto;      /* Keeps correct aspect ratio */
     display: block;    /* Removes inline gaps */
     margin: 0 auto;    /* Optional: centers the image */
 }
 
 .img-icon {
-    max-width: 40px;
-    max-height: 40px;
+    max-height: 50px;
     width: auto;
-    height: auto;
+    margin: 10px 40px;
 }
 
 .img-icon:hover {
