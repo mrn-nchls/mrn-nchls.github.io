@@ -6,14 +6,14 @@
     --bg: #f7f2e8;        /* cream */
     --text: #2f4f36;      /* dark sage */
     --accent: #d4a436;    /* mustard yellow */
-    --nav-bg: #ffffff;
+    --nav-bg: #d7ccb6;
     --toggle-sun: "☀️";
     --toggle-moon: "🌙";
 }
 
 body.dark {
     --bg: #2b2d31;        /* dark slate */
-    /*--text: #e5e5e5;*/
+    --text: #699673;      /* light sage */
     --nav-bg: #1f2023;
 }
 
