@@ -13,7 +13,7 @@
 
 body.dark {
     --bg: #2b2d31;        /* dark slate */
-    --text: #e5e5e5;
+    /*--text: #e5e5e5;*/
     --nav-bg: #1f2023;
 }
 
