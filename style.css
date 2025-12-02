@@ -1,0 +1,88 @@
+/* ===========================
+   COLOR VARIABLES
+=========================== */
+
+:root {
+    --bg: #f7f2e8;        /* cream */
+    --text: #2f4f36;      /* dark sage */
+    --accent: #d4a436;    /* mustard yellow */
+    --nav-bg: #ffffff;
+    --toggle-sun: "☀️";
+    --toggle-moon: "🌙";
+}
+
+body.dark {
+    --bg: #2b2d31;        /* dark slate */
+    --text: #e5e5e5;
+    --nav-bg: #1f2023;
+}
+
+/* ===========================
+   BASE STYLING
+=========================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    transition: background 0.3s, color 0.3s;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ===========================
+   NAVIGATION BAR
+=========================== */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+
+    padding: 1rem 2rem;
+    background: var(--nav-bg);
+    border-bottom: 2px solid var(--accent);
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+}
+
+nav a.active {
+    border-bottom: 2px solid var(--accent);
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+/* ===========================
+   THEME TOGGLE
+=========================== */
+
+#theme-toggle {
+    margin-left: auto;
+    background: none;
+    border: none;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+/* sun/moon icons through content */
+#theme-toggle::before {
+    content: var(--toggle-sun);
+}
+
+body.dark #theme-toggle::before {
+    content: var(--toggle-moon);
+}
