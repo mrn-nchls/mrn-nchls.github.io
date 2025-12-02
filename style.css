@@ -5,7 +5,7 @@
 
 :root {
     --bg: #e2dbcd;        /* cream */
-    --text: #2f4f36;      /* dark sage */
+    --text: #295432;      /* dark sage */
     --accent: #d4a436;    /* mustard yellow */
     --nav-bg: #d7ccb6;
     --toggle-sun: "☀️";
@@ -90,12 +90,18 @@ body.dark #theme-toggle::before {
     content: var(--toggle-moon);
 }
 
-.img-responsive {
+a {
+    text-decoration: none;
+}
+
+
+.img-round {
     max-width: 75%;   /* Shrinks when needed */
     border-radius: 50%;
     height: auto;      /* Keeps correct aspect ratio */
     display: block;    /* Removes inline gaps */
     margin: 0 auto;    /* Optional: centers the image */
+    padding: 40px 0px;
 }
 
 .img-icon {
