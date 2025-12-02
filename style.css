@@ -38,6 +38,9 @@ header {
     padding: 2rem;
 }
 
+.center-text {
+    text-align: center;
+}
 /* ===========================
    NAVIGATION BAR
 =========================== */
