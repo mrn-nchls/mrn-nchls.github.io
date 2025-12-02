@@ -90,8 +90,8 @@ body.dark #theme-toggle::before {
 }
 
 .img-responsive {
-    max-width: 800px;   /* Shrinks when needed */
+    max-width: 600px;   /* Shrinks when needed */
     height: auto;      /* Keeps correct aspect ratio */
     display: block;    /* Removes inline gaps */
-    margin: 0 auto;    /* Optional: centers the image */
+    margin: 10px;    /* Optional: centers the image */
 }
